@@ -8,3 +8,9 @@
 {
     background-color:cornflowerblue;
 }
+
+.img-thumbnail 
+{
+    width: 100%;
+    height: 500px;
+}
