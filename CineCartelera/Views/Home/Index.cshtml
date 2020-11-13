@@ -1,31 +1,221 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Inicio";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="row justify-content-center">
+    <h3 class="text-black">Cartelera</h3>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="https://pics.filmaffinity.com/Train_to_Busan_2-972558816-large.jpg" class="img-thumbnail" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase">Estacion Zombie</h5>
+                    <table class="table table-sm table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th class="thclss">Sala</th>
+                                <th class="thclss">Horario</th>
+                                <th class="thclss">Clasificación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sala 5</td>
+                                <td>6:00</td>
+                                <td>Clasificación B-15</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 1</td>
+                                <td>6:40</td>
+                                <td>Clasificación B-15</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 2</td>
+                                <td>3:50</td>
+                                <td>Clasificación B-15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="https://www.aragondigital.es/wp-content/uploads/2019/12/frozen-2-por-que-tienen-que-crecer-frozen2main1-1571826300-770x1122.jpg" class="img-thumbnail" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase">Frozen 2</h5>
+                    <table class="table table-sm table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th class="thclss">Sala</th>
+                                <th class="thclss">Horario</th>
+                                <th class="thclss">Clasificación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sala 1</td>
+                                <td>1:20</td>
+                                <td>Clasificación A</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 7</td>
+                                <td>5:40</td>
+                                <td>Clasificación A</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 2</td>
+                                <td>8:10</td>
+                                <td>Clasificación A</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="https://pics.filmaffinity.com/A_Scooby-798511662-large.jpg" class="img-thumbnail" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase">Scoob!</h5>
+                    <table class="table table-sm table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th class="thclss">Sala</th>
+                                <th class="thclss">Horario</th>
+                                <th class="thclss">Clasificación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sala 3</td>
+                                <td>11:00</td>
+                                <td>Clasificación A</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 5</td>
+                                <td>4:20</td>
+                                <td>Clasificación A</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 8</td>
+                                <td>6:30</td>
+                                <td>Clasificación A</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="https://cartelera.elperiodico.com/estaticos//0/675/675903_p.jpg" class="img-thumbnail" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase">IT</h5>
+                    <table class="table table-sm table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th class="thclss">Sala</th>
+                                <th class="thclss">Horario</th>
+                                <th class="thclss">Clasificación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sala 2</td>
+                                <td>8:15</td>
+                                <td>Clasificación B-15</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 1</td>
+                                <td>11:40</td>
+                                <td>Clasificación B-15</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 7</td>
+                                <td>9:20</td>
+                                <td>Clasificación B-15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="https://pics.filmaffinity.com/Unidos-464150296-large.jpg" class="img-thumbnail" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase">Unidos</h5>
+                    <table class="table table-sm table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th class="thclss">Sala</th>
+                                <th class="thclss">Horario</th>
+                                <th class="thclss">Clasificación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sala 2</td>
+                                <td>10:00</td>
+                                <td>Clasificación A</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 4</td>
+                                <td>5:15</td>
+                                <td>Clasificación A</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 6</td>
+                                <td>10:10</td>
+                                <td>Clasificación A</td>
+                            </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="https://www.ecartelera.com/carteles/10800/10861/002_m.jpg" class="img-thumbnail" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase">DeadPool 2</h5>
+                    <table class="table table-sm table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th class="thclss">Sala</th>
+                                <th class="thclss">Horario</th>
+                                <th class="thclss">Clasificación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sala 8</td>
+                                <td>6:00</td>
+                                <td>Clasificacion C</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 1</td>
+                                <td>6:40</td>
+                                <td>Clasificacion C</td>
+                            </tr>
+                            <tr>
+                                <td>Sala 3</td>
+                                <td>10:40</td>
+                                <td>Clasificacion C</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

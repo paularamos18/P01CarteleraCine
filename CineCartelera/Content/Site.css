@@ -1,5 +1,10 @@
-﻿body
-{
+﻿body {
     margin: 0;
     padding: 0;
+    background: #01BCD9;
+}
+
+.thclss
+{
+    background-color:cornflowerblue;
 }
